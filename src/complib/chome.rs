@@ -21,7 +21,7 @@ pub fn home() -> Html {
                 <div class={classes!("mobile:px-20", "bg-[#2c2f33]")}>
                     <div class={classes!("text-white", "text-center", "pt-32")}>
                         <h1 class={classes!("text-6xl", "font-semibold")}>
-                            {"Efficient, Reliable, Easy --"}
+                            {"Efficient, Reliable, Easy —"}
                             <br/>
                             {"Pick three."}
                         </h1>
