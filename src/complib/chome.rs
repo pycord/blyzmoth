@@ -26,7 +26,7 @@ pub fn home() -> Html {
                             {"Pick three."}
                         </h1>
                         <h3 class={classes!("pt-10", "text-xl", "font-medium", "max-w-lg", "m-auto")}>
-                            {"The Python library empowering you to make reliable and efficient Discord bots."}
+                            {"The Python library empowering developers to make reliable and efficient Discord bots."}
                         </h3>
 
                     </div>
