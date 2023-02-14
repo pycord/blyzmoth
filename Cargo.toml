@@ -1,0 +1,16 @@
+[package]
+name = "blyzmoth"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.20.0", features = ["csr"] }
+yew-router = "0.17.0"
+
+[profile.release]
+lto = true
+opt-level = 'z'
+panic = 'abort'
+codegen-units = 1
